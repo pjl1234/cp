@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.big{
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
+}
+.top{
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    color: red;
+}
+h3{
+    color: deeppink;
+    float: right;
+}
+.xh{
+    margin: 70px 0 0 180px;
+}
+.button{
+    float: left;
+    vertical-align: top;
+}
+button{
+    display: block;
+    width: 170px;
+    height: 130px;
+    font-size: 25px;
+}
+iframe{
+    width: 600px;
+    height: 260px;
+    display: inline-block;
+}
+.top>img{
+    width: 300px;
+    height: 120px;
+}
+@media (min-width: 500px) {
+    .top{
+        margin-top: 300px;
+    }
+    .big{
+        margin: 0 auto;
+        width: 100%;
+    }
+    h2{
+        color: red;
+        text-align: center;
+    }
+    h3{
+        color: deeppink;
+    }
+    .xh{
+        margin: 70px 0 0 180px;
+    }
+    .button{
+        margin-left: -110px;
+        float: left;
+        vertical-align: top;
+    }
+    button{
+        display: block;
+        width: 190px;
+        height: 130px;
+        font-size: 25px;
+        background-color: white;
+    }
+    iframe{
+        width: 630px;
+        height: 260px;
+        display: inline-block;
+    }
+    .top>img{
+        width: 300px;
+        height: 120px;
+    }
+}
